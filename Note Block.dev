@@ -1,0 +1,62 @@
+[Project]
+FileName=Note Block.dev
+Name=Note Block
+Type=0
+Ver=2
+ObjFiles=
+Includes=
+Libs=
+PrivateResource=
+ResourceIncludes=
+MakeIncludes=
+Compiler=-IC:/msys64/mingw64/include/gtk-4.0 -IC:/msys64/mingw64/include/pango-1.0 -IC:/msys64/mingw64/include/gdk-pixbuf-2.0 -IC:/msys64/mingw64/include/cairo -IC:/msys64/mingw64/include/graphene-1.0 -IC:/msys64/mingw64/lib/graphene-1.0/include -mfpmath=sse -msse -msse2 -IC:/msys64/mingw64/include/harfbuzz -IC:/msys64/mingw64/include/freetype2 -IC:/msys64/mingw64/include/glib-2.0 -IC:/msys64/mingw64/lib/glib-2.0/include -IC:/msys64/mingw64/include/webp -DLIBDEFLATE_DLL -IC:/msys64/mingw64/include/pixman-1 -IC:/msys64/mingw64/include/libpng16 -IC:/msys64/mingw64/include/fribidi -std=c11 -fexec-charset=UTF-8_@@_
+CppCompiler=
+Linker=-lgtk-4 -lpangowin32-1.0 -lharfbuzz -lpangocairo-1.0 -lpango-1.0 -lgdk_pixbuf-2.0 -lcairo-gobject -lcairo -lgraphene-1.0 -lgio-2.0 -lglib-2.0 -lintl -lgobject-2.0 -lhunspell-1.7_@@_
+IsCpp=0
+Icon=
+ExeOutput=
+ObjectOutput=
+LogOutput=
+LogOutputEnabled=0
+OverrideOutput=0
+OverrideOutputName=Note Block.exe
+HostApplication=
+UseCustomMakefile=0
+CustomMakefile=
+CommandLine=
+Folders=
+IncludeVersionInfo=0
+SupportXPThemes=0
+CompilerSet=6
+CompilerSettings=0000000000000000000000000
+UnitCount=1
+
+[VersionInfo]
+Major=1
+Minor=0
+Release=0
+Build=0
+LanguageID=1033
+CharsetID=1252
+CompanyName=
+FileVersion=1.0.0.0
+FileDescription=Developed using the Dev-C++ IDE
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+AutoIncBuildNr=0
+SyncProduct=1
+
+[Unit1]
+FileName=NoteBlockProject.c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
